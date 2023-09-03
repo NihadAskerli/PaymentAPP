@@ -1,13 +1,4 @@
 {
-  "type": "service_account",
-  "project_id": "rugged-lacing-395006",
-  "private_key_id": "aeb28d9a38cff55717b974647d4f396669788ff9",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDYeOCCjDqrkDvL\nmmDY6DtwoVQpufyeJ9YrZ0x8gVa3DLnEq5Ch1YDA2zQjMIr9FHyG9b1TQMV89ERU\nJE0E4Yr9o9rDsXvRfv/zdeMsfwLkerk17pzHW0Em/ttnsOsuit3LJcovT4DwFXSl\nog2jhl+kRVeCkT5/5iFczNN11D2cHQU2ZIbRGOIJzs8dzO5pmPdHAZ3LZQZaMOE+\nHg4O5c5vMwnA9SZgR2BU6MSYC7Q+pKEWIhH+JOZvffe/O01I6hpdVTZ4kydXsDJn\n5ihcg2ERw5QUHDazM2lFJvj8szvOGFWjI9uCaTC3deql6MkVIcEc8q56XwjghKTc\nUTtwlp3BAgMBAAECggEAU6ZaM3hWz6c7xBDS7d7H4V0mNb2eJcuFEl6nitE8Hh43\nxwz5JeBoEZ5jRlniy6tX95sMXxh/eCq4IL+qV4GEgUEJL2ftTeZCp+TdNXubNYlK\n+tFLGipkQdpoFGikaObWkEL5H1EcpSnVWpAFrzQkz0jQaS8RNMFMER1BdZ3fdOx3\nZOzNFe6TZPBvj1Ji6Axt0z16KFDemn49Zn8lUaQb6B+oT9xAF/A9AHEAVmKHPNKP\nB0+23MH0b90lmJ0ZUFG85N4IXsBSviSpNjLV0qyB6dOl7fcJ1hrR3OutC/uGkBmh\nC+jmt58yqFVtpynnWtBIhH8wi1ilj6/ligH6CIc/xQKBgQD/cSDgsNI+XwglsYjZ\nf7C7sXy1G5B/+dLuks9yz4OZFgRJ4v3KA3aoLtdM5B6dd1FQ1D+HFRaR0bL74wNY\nk+Cc0dcLbRydCOwAFXhAvFtaVvVK/S8sj0ccR6dXOclizODUw3h2kOBO77nGV1Jn\nXEwjtS4c61z6wkGvPHBke4+o0wKBgQDY8fPNE8E7pP7hd6YVB9XWHg2FwZShHCfj\nZdNA0X0kagSP2yusVv1J6F2JdbBcQvIHqz0+xx+QTzaDq+mnzpIi2skM164Koamw\nMg+m74P6agCO17zLF3PY3Yo0rtzC+19CTmOwELNI31FA9XbokDYwYFdLWVwdDin/\nw7ATT3dCmwKBgBMGSO2THcV5bHDqPQf945rHCEOwzt1JLPWJx5uEaweuxRj/p+kw\nwtiZzH00jDcsGMlNVYHpBypLFOp/qNMjCFqFol9+e+ASNwl2j+M6ZA9hZJl2K9pE\nvYYUrBjp+9645ZHTERi7h4k5f3uPK1r5W85ZAxsySFWAvEWh2bkSHsvzAoGBAITV\noTIwpmCe5nGnkUnPQl+Yhy8fGKKNWt8hufg2TSm+wIxU5qjfmrdmT9+a8CGN3CRV\n9Wo7AliaKAb3fFoDYfd1fyUd6rMXyY7ZGDxe67Coty6/ahnwgj6HZ9haOVIqGGnB\nFcj4cM5t7pKXufcsVgHI+6pnTL99rLmuWGF6hsuBAoGAPbs/5bzITwdQBFbCOkJi\nP3HaPLwblfnVIPIRxhEO3IXttaOK7Mfp4mS8JJ0L49xnXMlaNov3rqHWR5WmK6bD\nTyX3xuiGXMTdq9RTPBR3xsIssZ66JO0IdiHRkUOESoEdkQEu12D0K7AegMzYGzr6\nh1VnQR37H/gaIUcOwzYhfxM=\n-----END PRIVATE KEY-----\n",
-  "client_email": "yellow-go-startup@rugged-lacing-395006.iam.gserviceaccount.com",
-  "client_id": "115604204170459022387",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/yellow-go-startup%40rugged-lacing-395006.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+  "type": "gizli"
+
 }

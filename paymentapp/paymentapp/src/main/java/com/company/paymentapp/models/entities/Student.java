@@ -15,6 +15,7 @@ import java.util.List;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Entity
 @Table(name = "students")
+@Builder
 public class Student {
     @Id
     @SequenceGenerator(name = "app_seq", allocationSize = 1)
@@ -35,7 +36,8 @@ public class Student {
     )
     List<Course> courses;
     @OneToMany(mappedBy = "student")
-    List<Payment>payments;
+    @JsonIgnore
+    List<Payment> payments;
 
 
 }

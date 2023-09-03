@@ -21,7 +21,7 @@ public class Payment {
     @GeneratedValue(generator = "app_seq")
     Long id;
     Double pay;
-    Integer month;
+    Integer courseMonth;
     LocalDate checkDate;
     String cardOwn;
     String checkURl;

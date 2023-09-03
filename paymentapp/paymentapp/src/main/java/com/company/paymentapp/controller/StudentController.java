@@ -2,7 +2,7 @@ package com.company.paymentapp.controller;
 
 import com.company.paymentapp.models.base.BaseResponse;
 import com.company.paymentapp.models.payload.student.AddStudent;
-import com.company.paymentapp.models.payload.student.SavePayload;
+import com.company.paymentapp.models.payload.student.SaveStudent;
 import com.company.paymentapp.models.response.student.StudentResponse;
 import com.company.paymentapp.service.student.StudentService;
 import lombok.RequiredArgsConstructor;
@@ -17,8 +17,8 @@ public class StudentController {
     private final StudentService studentService;
 
     @PostMapping("/save")
-    public BaseResponse<Void> saveStudent(@RequestBody SavePayload savePayload) {
-        studentService.studentSave(savePayload);
+    public BaseResponse<Void> saveStudent(@RequestBody SaveStudent saveStudent) {
+        studentService.studentSave(saveStudent);
         return BaseResponse.success();
     }
 

@@ -19,8 +19,10 @@ public class Cost {
     @Id
     @SequenceGenerator(name = "app_seq", allocationSize = 1)
     @GeneratedValue(generator = "app_seq")
+            @Column(name = "id")
     Long id;
-    Double value;
+    @Column(name = "price")
+    Double price;
     String costName;
     LocalDate localDate;
     String cardOwn;
